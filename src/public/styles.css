@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #0f0;
+}
+
+#output {
+    border: 1px solid #0f0;
+    padding: 10px;
+    height: 90vh;
+    overflow: auto;
+    white-space: pre-wrap;
+    background-color: #000;
+    color: #0f0;
+}
+
+#commandForm {
+    display: flex;
+}
+
+#commandInput {
+    flex-grow: 1;
+    margin-right: 10px;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+button {
+    background-color: black;
+    border: 1px solid lime;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 5px green;
+    transition: 0.3s;
+}
+
+button:active {
+    box-shadow: 0 2px gray;
+    transform: translateY(4px);
+}
